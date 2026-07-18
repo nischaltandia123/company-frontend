@@ -13,7 +13,6 @@ export default function Navbar() {
           width={64}
           height={64}
           alt="Logo"
-          unoptimized
         />
 
         <h2>Company</h2>
