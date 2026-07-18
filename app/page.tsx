@@ -28,7 +28,7 @@ export default function Home() {
 
           <div className="hero-right">
             <Image
-               src={`${CDN_URL}/images/images.png`}
+                src={`${process.env.NEXT_PUBLIC_CDN_URL}/images.png`}
               alt="Hero"
               width={550}
               height={450}

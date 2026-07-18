@@ -9,11 +9,11 @@ export default function Navbar() {
 
       <div className="logo-section">
         <Image
-           src={`${CDN_URL}/images/logo.png`}
-          alt="Company Logo"
-          width={55}
-          height={55}
-          priority
+          src={`${process.env.NEXT_PUBLIC_CDN_URL}/logo.png`}
+          width={64}
+          height={64}
+          alt="Logo"
+          unoptimized
         />
 
         <h2>Company</h2>
@@ -25,10 +25,7 @@ export default function Navbar() {
         <div className="search-box">
           <Search size={18} />
 
-          <input
-            type="text"
-            placeholder="Search..."
-          />
+          <input type="text" placeholder="Search..." />
         </div>
 
         <Bell className="icon" />
