@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { CDN_URL } from "./config/image";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
 
           <div className="hero-right">
             <Image
-              src="/images/image.png"
+               src={`${CDN_URL}/images/image.png`}
               alt="Hero"
               width={550}
               height={450}

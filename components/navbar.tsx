@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Bell, Search, UserCircle } from "lucide-react";
+import { CDN_URL } from "@/app/config/image";
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
 
       <div className="logo-section">
         <Image
-          src="/images/logo.png"
+           src={`${CDN_URL}/images/logo.png`}
           alt="Company Logo"
           width={55}
           height={55}
