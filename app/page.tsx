@@ -28,7 +28,7 @@ export default function Home() {
 
           <div className="hero-right">
             <Image
-               src={`${CDN_URL}/images/image.png`}
+               src={`${CDN_URL}/images/images.png`}
               alt="Hero"
               width={550}
               height={450}

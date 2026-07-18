@@ -9,13 +9,13 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "cdn.yourdomain.com",
+        hostname: "cdn.mirrorcube.in",
       },
     ],
   },
 
   assetPrefix: isProduction
-    ? "https://cdn.yourdomain.com"
+    ? "https://cdn.mirrorcube.in"
     : "",
 
   poweredByHeader: false,
